@@ -1,0 +1,24 @@
+.card {
+width: 100px;
+padding: 40px;
+margin: 90px;
+border: 5px solid rgba(1, 2, 5, 0.769);
+border-radius: 10px;
+box-shadow: 10px 10px 5px rgba(148, 55, 55, 0.769);
+}
+.importante {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.importante {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+}
+@media (max-width: 600px) {
+.importante {
+grid-template-columns: 1fr;
+}
+}

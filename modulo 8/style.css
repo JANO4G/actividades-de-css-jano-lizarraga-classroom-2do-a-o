@@ -1,0 +1,14 @@
+.card {
+width: 200px;
+padding: 50px;
+margin: 100px;
+border: 5px solid rgba(1, 2, 5, 0.769);
+border-radius: 20px;
+box-shadow: 10px 10px 5px rgba(148, 55, 55, 0.769);
+}
+.contenedor {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}

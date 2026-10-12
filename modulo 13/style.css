@@ -1,0 +1,18 @@
+:root {
+--principal: #4a45e5;
+--secundario: #000000;
+--fondo: #75d290;
+--2do: #ec1919;
+} 
+body {
+    background-color: var(--principal);
+    } 
+button {
+    color: var(--secundario);
+    background-color: var(--fondo);
+    }
+    h1 {
+    color: var(--2do);
+    background-color: var(--secundario);
+    }
+    
