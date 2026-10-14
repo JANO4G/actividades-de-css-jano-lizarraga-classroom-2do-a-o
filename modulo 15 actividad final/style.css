@@ -80,3 +80,6 @@ img {
     size: 40px;
     border-radius: 10px;
 }
+button:hover {
+transform: scale(1.05);
+}
